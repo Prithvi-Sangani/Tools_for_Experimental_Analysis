@@ -1,3 +1,4 @@
+%This code can be used for toe correction of Load - Deformation curves
 LD_rawdata = []; % import or copy Load-Deformation [L(kN) D(mm)] data in this matrix
 [Load_max,L_i] = max(LD_rawdata(:,1)); % [maximum Load value, max load value index]
 n = 50; % input datapoints required at every n intervals
