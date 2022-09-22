@@ -24,8 +24,8 @@ end
 end
 LD_corrected = [LD_coarser(:,1) D_corrected]; %Load-Deformation corrected
 hold on
-plot(LD_corrected(:,2),LD_corrected(:,1),'-','Linewidth',2,'displayname','corrected') 
-plot(LD_coarser(:,2),LD_coarser(:,1),'g--','Linewidth',2,'displayname','rawdata')
+plot(LD_corrected(:,2),LD_corrected(:,1),'--','Linewidth',2,'displayname','corrected') 
+plot(LD_coarser(:,2),LD_coarser(:,1),'g-','Linewidth',2,'displayname','rawdata')
 xlabel('Deformation(mm)','FontSize',10,'FontWeight','bold')
 ylabel('Axial Load (kN)','FontSize',10,'FontWeight','bold')
 legend('show','Location','Southeast')
